@@ -1,0 +1,97 @@
+.test {
+  background-color: darkcyan;
+  font-size: 20px;
+  font-weight: 600;
+  position: fixed;
+}
+
+@import "modules/special.scss" ;
+
+html {
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+body {
+  background: #2c2141;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.main {
+  background: #f8f8f8;
+  border-radius: 16px;
+  width: 624px;
+  margin: 16px;
+  padding: 32px;
+}
+
+.person {
+  display: flex;
+  align-items: flex-start;
+}
+
+.person__name {
+  font-size: 36px;
+  margin: 0px;
+  font-weight: normal;
+}
+
+.person__position {
+  font-size: 18px;
+  color: #545454;
+  margin: 0;
+  font-style: italic;
+}
+
+.person__picture {
+  border-radius: 50%;
+  margin-right: 32px;
+}
+
+.person__info {
+  margin-bottom: 24px;
+}
+
+.person__description {
+  font-size: 16px;
+  line-height: 22px;
+}
+
+.person__description--withMargin {
+  margin-bottom: 22px;
+}
+
+.person__link {
+  color: #e20613;
+  text-decoration: none;
+}
+
+// .special {
+//     color: #ed6d05;
+//     font-weight: normal;
+// }
+
+//raz na jeden projekt w konsoli instalujemy node-sass
+
+//później wpisujemy w konsoli npx node-sass main.scss main.css żeby przeglądarka zamieniała nam ten kod
+
+//jeśli chcemy by zmiany następowały bez naszego wpisywania co chwila polecenia to wpisujemy npx node-sass -w (watch) main.scss main.css i wtedy automatycznie wszystkie zmiany będą się zapisywały
+
+//jeśli chcemy wyjść z danego projeku to wybieramy ctrl + c
+
+//w package.json zapisałam w script nową formułę o nazwie "sass", wtedy wystarczy  że w konsoli wpiszę npm run sass i ten skrypt mi sie uruchomi
+
+//main css nie dotykamy, skupiamy się jedynie na scss
+
+//dobrą praktyką jest (dla utrzymania porządku w pisaniu kodu) żeby utworzyć sobie jeden folder o nazwie scss i tam wrzucać wszystkie nasze style. Należy też pamiętać żeby później w package.json zmienić ścieżkę w script do sass (bo zmiany nie będą się automatyczie zapisywały
+
+//i wtedy
