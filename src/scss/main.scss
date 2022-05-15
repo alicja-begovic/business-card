@@ -7,6 +7,9 @@ body {
   background: $wtf;
   min-height: 100vh;
   font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .main {
@@ -15,6 +18,8 @@ body {
   width: 624px;
   margin: 16px;
   padding: 32px;
+  
+  
 }
 
 .person {
