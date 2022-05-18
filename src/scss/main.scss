@@ -4,7 +4,7 @@
 @import "modules/hello.scss";
 
 body {
-  background: #da9f93;
+  background: #353a47;
   min-height: 100vh;
   font-family: Arial, Helvetica, sans-serif;
   display: flex;
@@ -13,7 +13,7 @@ body {
 }
 
 .main {
-  background: #353a47;
+  background: #ffffff;
   border-radius: 16px;
   width: 624px;
   margin: 16px;
@@ -28,6 +28,7 @@ body {
 }
 
 .person__name {
+  color: #9b384e;
   font-size: 36px;
   margin: 0px;
   font-weight: normal;
@@ -59,11 +60,11 @@ body {
 }
 
 .person__link {
-  color: #b6465f;
+  color: #9b384e;
   text-decoration: none;
 }
 
 .special {
-  color: #ed6d05;
+  color: #277279;
   font-weight: normal;
 }
