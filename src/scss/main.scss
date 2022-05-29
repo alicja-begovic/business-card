@@ -3,8 +3,13 @@
 @import "_variables";
 @import "modules/hello.scss";
 
+:root {
+  --background-color: #353a47;
+  --text-color: #9b384e;
+}
+
 body {
-  background: #353a47;
+  background: var(--background-color);
   min-height: 100vh;
   font-family: Arial, Helvetica, sans-serif;
   display: flex;
@@ -26,7 +31,7 @@ body {
 }
 
 .person__name {
-  color: #9b384e;
+  color: var(--text-color);
   font-size: 36px;
   margin: 0px;
   font-weight: normal;
@@ -58,11 +63,27 @@ body {
 }
 
 .person__link {
-  color: #9b384e;
+  color: var(--text-color);
   text-decoration: none;
 }
 
 .special {
-  color: #277279;
+  color: var(--text-color);
+  font-weight: normal;
+}
+
+.button {
+  
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.personn__button {
+  font-size: smaller;
+  color: var(--text-color);
+  background: none;
+  margin-top: 10px;
+  border-color: var(--background-color);
+  border-radius: 30px;
   font-weight: normal;
 }
