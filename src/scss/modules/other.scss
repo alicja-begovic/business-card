@@ -1,0 +1,13 @@
+:root {
+  --text-color: #9b384e;
+}
+
+.special {
+  color: var(--text-color);
+  font-weight: normal;
+}
+
+.button {
+  justify-content: flex-start;
+  align-items: flex-start;
+}
