@@ -1,0 +1,51 @@
+.person {
+  display: flex;
+  align-items: flex-start;
+}
+
+.person__name {
+  color: var(--text-color);
+  font-size: 36px;
+  margin: 0px;
+  font-weight: normal;
+}
+
+.person__position {
+  font-size: 18px;
+  color: #545454;
+  margin: 0;
+  font-style: italic;
+}
+
+.person__picture {
+  border-radius: 50%;
+  margin-right: 32px;
+}
+
+.person__info {
+  margin-bottom: 24px;
+}
+
+.person__description {
+  font-size: 16px;
+  line-height: 22px;
+}
+
+.person__description--withMargin {
+  margin-bottom: 22px;
+}
+
+.person__link {
+  color: var(--text-color);
+  text-decoration: none;
+}
+
+.personn__button {
+  font-size: smaller;
+  color: var(--text-color);
+  background: none;
+  margin-top: 10px;
+  border-color: var(--background-color);
+  border-radius: 30px;
+  font-weight: normal;
+}
